@@ -4,7 +4,7 @@ PCB Wallet is a casual wallet to keep your change and cards with you but also up
 available here: <https://www.lockcard.de>
 ## Project Toolchain
 - [KiCad](https://www.kicad.org)
-- [STM] (https://www.st.com/en/nfc/st25-dynamic-nfc-tags.html)
+- [STM](https://www.st.com/en/nfc/st25-dynamic-nfc-tags.html)
 # Index
 Simple functionality to show the usecase of pcb wallet.
 Features
@@ -21,4 +21,4 @@ Features
 
 #
 Powerd by:
-![K-LABs](https://github.com/KilianKlepper/PCBWallet/blob/main/Documentation/Images/logo.png|height=100)
+![K-LABs](https://github.com/KilianKlepper/PCBWallet/blob/main/Documentation/Images/logo.png)
