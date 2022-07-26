@@ -21,4 +21,4 @@ Features
 
 #
 Powerd by:
-![K-LABs](https://github.com/KilianKlepper/PCBWallet/blob/main/Documentation/Images/logo.png | height=100)
+![K-LABs](https://github.com/KilianKlepper/PCBWallet/blob/main/Documentation/Images/logo.png|height=100)
