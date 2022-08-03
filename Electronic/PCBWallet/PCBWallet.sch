@@ -1,4 +1,204 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PCBWallet:NFCTag_ST25DV U1
+U 1 1 62EA3949
+P 5425 3950
+F 0 "U1" H 5425 4515 50  0000 C CNN
+F 1 "NFCTag_ST25DV" H 5425 4424 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.45mm_EP1.66x2.38mm" H 5425 3200 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/389/st25dv04kc-2450072.pdf" H 5425 3950 50  0001 C CNN
+	1    5425 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5025 3650
+NoConn ~ 5025 3750
+NoConn ~ 5825 4450
+NoConn ~ 5825 4350
+NoConn ~ 5825 3750
+NoConn ~ 5825 3650
+$Comp
+L Device:Antenna_Loop AE1
+U 1 1 62EA48B1
+P 4200 4200
+F 0 "AE1" V 4575 4200 50  0000 C CNN
+F 1 "Antenna_Loop" V 4500 4200 50  0000 C CNN
+F 2 "RF_Antenna:Coilcraft_MA5532-AE_RFID" H 4200 4200 50  0001 C CNN
+F 3 "~" H 4200 4200 50  0001 C CNN
+	1    4200 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 62EA5C6D
+P 4625 4150
+F 0 "C3" H 4740 4196 50  0000 L CNN
+F 1 "50pF" H 4740 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4663 4000 50  0001 C CNN
+F 3 "~" H 4625 4150 50  0001 C CNN
+	1    4625 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 62EA7F42
+P 4625 3800
+F 0 "C1" H 4740 3846 50  0000 L CNN
+F 1 "50pF" H 4740 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4663 3650 50  0001 C CNN
+F 3 "~" H 4625 3800 50  0001 C CNN
+	1    4625 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 62EA84F7
+P 4625 4500
+F 0 "C4" H 4740 4546 50  0000 L CNN
+F 1 "50pF" H 4740 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4663 4350 50  0001 C CNN
+F 3 "~" H 4625 4500 50  0001 C CNN
+	1    4625 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 3950 4625 3950
+Wire Wire Line
+	4400 3950 4400 4100
+Wire Wire Line
+	5025 4350 4625 4350
+Wire Wire Line
+	4400 4350 4400 4200
+Connection ~ 4625 4350
+Wire Wire Line
+	4625 4350 4400 4350
+Connection ~ 4625 3950
+Wire Wire Line
+	4625 3950 4400 3950
+Wire Wire Line
+	4625 3950 4625 4000
+Wire Wire Line
+	4625 4350 4625 4300
+$Comp
+L power:GND #PWR02
+U 1 1 62EAA165
+P 4625 4700
+F 0 "#PWR02" H 4625 4450 50  0001 C CNN
+F 1 "GND" H 4630 4527 50  0000 C CNN
+F 2 "" H 4625 4700 50  0001 C CNN
+F 3 "" H 4625 4700 50  0001 C CNN
+	1    4625 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 62EAAA16
+P 4625 3600
+F 0 "#PWR01" H 4625 3350 50  0001 C CNN
+F 1 "GND" H 4630 3427 50  0000 C CNN
+F 2 "" H 4625 3600 50  0001 C CNN
+F 3 "" H 4625 3600 50  0001 C CNN
+	1    4625 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4625 3600 4625 3650
+Wire Wire Line
+	4625 4650 4625 4700
+Wire Wire Line
+	5025 4550 5025 4700
+$Comp
+L power:GND #PWR03
+U 1 1 62EAC0C1
+P 5025 4700
+F 0 "#PWR03" H 5025 4450 50  0001 C CNN
+F 1 "GND" H 5030 4527 50  0000 C CNN
+F 2 "" H 5025 4700 50  0001 C CNN
+F 3 "" H 5025 4700 50  0001 C CNN
+	1    5025 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 62EAC851
+P 6100 4125
+F 0 "D1" V 6139 4007 50  0000 R CNN
+F 1 "LED" V 6048 4007 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6100 4125 50  0001 C CNN
+F 3 "~" H 6100 4125 50  0001 C CNN
+	1    6100 4125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 62EAE45E
+P 6475 4125
+F 0 "C2" H 6590 4171 50  0000 L CNN
+F 1 "50pF" H 6590 4080 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6513 3975 50  0001 C CNN
+F 3 "~" H 6475 4125 50  0001 C CNN
+	1    6475 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 62EAE84B
+P 6100 4500
+F 0 "R1" H 6170 4546 50  0000 L CNN
+F 1 "220R" H 6170 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6030 4500 50  0001 C CNN
+F 3 "~" H 6100 4500 50  0001 C CNN
+	1    6100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 62EB053C
+P 6100 4700
+F 0 "#PWR04" H 6100 4450 50  0001 C CNN
+F 1 "GND" H 6105 4527 50  0000 C CNN
+F 2 "" H 6100 4700 50  0001 C CNN
+F 3 "" H 6100 4700 50  0001 C CNN
+	1    6100 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4700 6100 4675
+Wire Wire Line
+	6100 4350 6100 4275
+Wire Wire Line
+	6100 3975 6100 3950
+Wire Wire Line
+	6100 3950 5825 3950
+Wire Wire Line
+	6100 3950 6475 3950
+Wire Wire Line
+	6475 3950 6475 3975
+Connection ~ 6100 3950
+Wire Wire Line
+	6475 4275 6475 4675
+Wire Wire Line
+	6475 4675 6100 4675
+Connection ~ 6100 4675
+Wire Wire Line
+	6100 4675 6100 4650
+Text Notes 2975 4450 0    50   ~ 0
+Internal tuning Cap: 28.5PF
+Text Notes 2975 4550 0    50   ~ 0
+f_res = 1/(2pi*sqrt(L_ant * C_tuning)
+Text Notes 2975 4650 0    50   ~ 0
+L_ant = 4.83365uH
 $EndSCHEMATC

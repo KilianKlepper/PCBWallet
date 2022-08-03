@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NFCTag_ST25DV
+D UFDFPN12
+F https://www.mouser.de/datasheet/2/389/st25dv04kc-2450072.pdf
+$ENDCMP
+#
+#End Doc Library
