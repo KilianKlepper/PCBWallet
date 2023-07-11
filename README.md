@@ -15,10 +15,14 @@ Features
 - energy harvesting to power a small led
 - keep change, cards and money close to you
 # IC List
-- STM NFC Tag: [ST25DC16K](https://www.mouser.de/datasheet/2/389/st25dv04k-1850125.pdf)
+- STM NFC Tag: [ST25DV16KC-JF8D3](https://www.mouser.de/datasheet/2/389/st25dv04k-1850125.pdf)
+- STM NFC Tag: [M24LR16E-RMC6T/2](https://www.mouser.de/datasheet/2/389/m24lr16e_r-1849773.pdf)
 # PCB Features
-![PCB]()
-
+- NFC Antenna: [AN5605](file:///C:/Users/Kilian/Downloads/an5605-design-of-a-1356-mhz-doublelayer-antenna-stmicroelectronics-1.pdf)
+- Self-Induct: [AN2866](https://www.st.com/content/ccc/resource/technical/document/application_note/d9/29/ad/cc/04/7c/4c/1e/CD00221490.pdf/files/CD00221490.pdf/jcr:content/translations/en.CD00221490.pdf) and [AN2972](https://www.st.com/content/ccc/resource/technical/document/application_note/bc/ac/13/fe/69/fb/49/8a/CD00232630.pdf/files/CD00232630.pdf/jcr:content/translations/en.CD00232630.pdf)
+- ESD Portection: [AN5425](file:///C:/Users/Kilian/Downloads/an5425-increasing-the-st25dvi2c-series-dynamic-nfc-tags-esd-robustness-on-antenna-using-an-external-esd-protection-stmicroelectronics.pdf)
+- eDesignSuite: [NFC Inductance](https://www.st.com/content/st_com/en/support/resources/edesign.html)
 #
 Powerd by:
-![K-LABs](https://github.com/KilianKlepper/PCBWallet/blob/main/Documentation/Images/logo.png)
+K-Lab
+0x4b6c6570706572
